@@ -1,0 +1,27 @@
+.nav-container {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-block: 0;
+  padding: 0 20px;
+  font-family: 'Roboto';
+}
+
+.nav-container ul {
+  width: 100%;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #000; */
+  margin: 0;
+}
+
+.nav-container ul li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container ul li p {
+  margin-inline: 10px;
+}

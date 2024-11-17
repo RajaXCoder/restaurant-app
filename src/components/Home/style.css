@@ -1,0 +1,36 @@
+.home-container {
+  height: 100vh;
+}
+
+.loader-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs-container {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0;
+  padding-block: 10px;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+.tabs-container::-webkit-scrollbar {
+  height: 4px; /* Height of the scrollbar */
+}
+
+.tabs-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar color */
+  border-radius: 4px;
+}
+
+.tabs-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color on hover */
+}
